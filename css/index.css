@@ -1,0 +1,158 @@
+body {
+    font: 0.8em Arial, sans-serif;
+  }
+  
+  h1,
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #wrap {
+    background: #f5f5f5;
+    width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  
+  #header {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: linear-gradient(to right, #f8b500, #ed9121);
+    border-bottom: 1px dotted #000;
+    min-height: 90px;
+  }
+  
+  #logo {
+    margin-left: 30px;
+    padding-top: 15px;
+  }
+  
+  /* Menu Styles */
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu > ul > li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #menu > ul > li > a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  #menu > ul > li:hover > a {
+    background-color: #ccc;
+  }
+  
+  #menu > ul > li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f4f4f4;
+    padding: 0;
+  }
+  
+  #menu > ul > li:hover ul {
+    display: block;
+  }
+  
+  #menu > ul > li ul li {
+    display: block;
+  }
+  
+  #menu > ul > li ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  #menu > ul > li ul li a:hover {
+    background-color: #ccc;
+  }
+  
+  #menu > ul > li ul li ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #f4f4f4;
+    padding: 0;
+  }
+  
+  #menu > ul > li ul li:hover ul {
+    display: block;
+  }
+  
+  #main {
+    background: #f5f5f5;
+    overflow: hidden;
+  }
+  
+  #content {
+    background: #fff;
+    float: left;
+    width: 600px;
+    padding: 20px;
+    min-height: 200px;
+    border-right: 1px solid #aaa;
+  }
+  
+  #content h1 {
+    font-size: 1.6em;
+    margin-bottom: 20px;
+  }
+  
+  #side {
+    float: right;
+    width: 220px;
+    padding: 10px;
+  }
+  
+  #side table td {
+    border: 1px solid #ed9121;
+    background-color: #eec591;
+    width: 15em;
+    text-align: center;
+  }
+  
+  td a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+  }
+  
+  td li {
+    list-style-type: none;
+  }
+  
+  td li:hover {
+    background-color: #607b8b;
+    color: white;
+  }
+  
+  td li:active {
+    background-color: yellowgreen;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  #footer {
+    background: #607b8b;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+  }
